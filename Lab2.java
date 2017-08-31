@@ -33,12 +33,12 @@ public class Lab2
 
         Double race_distance_km = race_distance_miles * KM_PER_MILE;
 
-
         Double finish_time_hr = finish_time_min / 60;
         Double finish_time_mins = finish_time_min % 60;
 
-        System.out.println(finish_time_hr + "hours " + finish_time_mins + "minutes");
-
+        System.out.println("Race Distace : " + race_distance_miles + " miles " + "(or " + race_distance_km + " kilometers)");
+        System.out.println("Runner       : " + last_name +", " + first_name);
+        System.out.println("Finish Time  : " + finish_time_hr + " hours and " + finish_time_mins + " minutes");
 
 
         // ERASE COMMENTS AFTER YOU GET YOUR PROGRAM WORKING
