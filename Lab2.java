@@ -12,26 +12,27 @@ public class Lab2
     public static void main(String[] args)
     {
         Scanner kbd = new Scanner(System.in);
-        System.out.print("Enter Your First Name:   ");
+        System.out.print("Enter Your First Name: ");
 
         String first_name = kbd.nextLine();
 
         Scanner kbd1 = new Scanner(System.in);
-        System.out.print("Enter Your Last Name:    ");
+        System.out.print("Enter Your Last Name: ");
 
         String last_name =kbd.nextLine();
 
         Scanner kbd2 =new Scanner(System.in);
-        System.out.print("Enter Race Distance in Miles");
+        System.out.print("Enter Race Distance in Miles: ");
 
-        String race_distance_miles =kbd.nextLine();
+        Double race_distance_miles = kbd.nextDouble();
 
         Scanner kbd3 =new Scanner(System.in);
-        System.out.print("Enter Finish Time in Whole Minutes");
+        System.out.print("Enter Finish Time in Whole Minutes: ");
 
-        String finish_time_min =kbd.nextLine();
+        Double finish_time_min =kbd.nextDouble();
 
 
+        
 
         // ERASE COMMENTS AFTER YOU GET YOUR PROGRAM WORKING
 
