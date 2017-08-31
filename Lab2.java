@@ -31,8 +31,8 @@ public class Lab2
 
         Double finish_time_min =kbd.nextDouble();
 
+        Double race_distance_km = race_distance_miles * KM_PER_MILE;
 
-        
 
         // ERASE COMMENTS AFTER YOU GET YOUR PROGRAM WORKING
 
