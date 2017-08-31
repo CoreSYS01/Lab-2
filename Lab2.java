@@ -29,16 +29,28 @@ public class Lab2
         Scanner kbd3 =new Scanner(System.in);
         System.out.print("Enter Finish Time in Whole Minutes: ");
 
-        Double finish_time_min =kbd.nextDouble();
+        int finish_time_min =kbd.nextInt();
 
         Double race_distance_km = race_distance_miles * KM_PER_MILE;
 
-        Double finish_time_hr = finish_time_min / 60;
-        Double finish_time_mins = finish_time_min % 60;
+
+        int finish_time_hr = finish_time_min / 60;
+        int finish_time_mins = finish_time_min % 60;
+
+
+        Double pace = finish_time_min / race_distance_miles;
+
+        Double speed = race_distance_miles / finish_time_hr;
+
+        System.out.println(finish_time_hr);
+
 
         System.out.println("Race Distace : " + race_distance_miles + " miles " + "(or " + race_distance_km + " kilometers)");
         System.out.println("Runner       : " + last_name +", " + first_name);
         System.out.println("Finish Time  : " + finish_time_hr + " hours and " + finish_time_mins + " minutes");
+        System.out.println("Avg Pace     : " + pace + " minutes/mile");
+        System.out.println("Avg Speed    : " + speed + " miles/hour");
+
 
 
         // ERASE COMMENTS AFTER YOU GET YOUR PROGRAM WORKING
