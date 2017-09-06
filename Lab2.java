@@ -38,7 +38,7 @@ public class Lab2
         //Convert the race distance from miles to kilometers
         Double race_distance_km = race_distance_miles * KM_PER_MILE;
 
-        //Convert the finish time as a double and convert the value to an int
+        //Convert the finish time as a double to an int
         int finish_time_min_i =finish_time_min.intValue();
 
         //Convert the int value for minutes to an int of hours and minutes
