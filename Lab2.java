@@ -54,7 +54,7 @@ public class Lab2
         //Find the speed of the runner using the double hours value
         Double speed = race_distance_miles / finish_time_hr_d;
 
-        //Add spaces to make it look neater
+        //Add spaces
         System.out.println(" ");
         System.out.println(" ");
         System.out.println(" ");
