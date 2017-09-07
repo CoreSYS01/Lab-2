@@ -75,5 +75,9 @@ public class Lab2
 
 
         kbd.close();
+        kbd1.close();
+        kbd2.close();
+        kbd3.close();
+
     }
 }
